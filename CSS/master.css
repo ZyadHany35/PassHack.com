@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to right, #003638, #53b8bb);
+  overflow: hidden;
+}
+
+.pass {
+  font-size: 50px;
+  padding: 20px;
+  background-color: chartreuse;
+  border-radius: 6px;
+}
+
+.timer {
+  position: absolute;
+  font-size: 50px;
+  padding: 20px;
+  left: 20px;
+  background-color: rgb(10, 180, 52);
+  border-radius: 6px;
+  top: 20px;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  user-select: none;
+  background-color: yellow;
+  margin: 40px auto;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  filter: grayscale(100%);
+}
