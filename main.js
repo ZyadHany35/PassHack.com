@@ -4,11 +4,14 @@ let charCount = 2;
 let timer = document.getElementById("timer");
 let timerTime = 0;
 let wait = 5;
-let restartBtn = document.getElementById("btnT")
+let restartBtn = document.getElementById("btnR")
 let searching = window.prompt("Write Two Charcters!");
 
 let i = 0;
 let j = 0;
+restartBtn.onclick = function () {
+    location.reload()
+}
 if (searching.length > 2) {
     location.reload()
 }
