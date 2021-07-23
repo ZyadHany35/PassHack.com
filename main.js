@@ -3,7 +3,7 @@ let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
 let charCount = 2;
 let timer = document.getElementById("timer");
 let timerTime = 0;
-let wait = 1000;
+let wait = 5;
 let restartBtn = document.getElementById("btnT")
 let searching = window.prompt("Write Two Charcters!");
 
