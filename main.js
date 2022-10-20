@@ -1,11 +1,11 @@
 let pass = document.getElementById("pass");
 let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"; /* 61 charcter */
-let charCount = 2;
+let charCount = 8;
 let timer = document.getElementById("timer");
 let timerTime = 0;
 let wait = 5;
 let restartBtn = document.getElementById("btnR")
-let searching = window.prompt("Write Two Charcters!");
+let searching = window.prompt("Write 8 Charcters!");
 
 let i = 0;
 let j = 0;
