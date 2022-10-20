@@ -12,7 +12,7 @@ let j = 0;
 restartBtn.onclick = function () {
     location.reload()
 }
-if (searching.length > 2) {
+if (searching.length > 8) {
     location.reload()
 }
 setInterval(() => {
